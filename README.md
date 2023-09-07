@@ -3,10 +3,6 @@
 ```markdown
 # Rock Paper Scissors Game
 
-![Rock Paper Scissors]
-![image](https://github.com/vedantpatel07756/ROCK-PAPER-SCISSORS/assets/82470482/43bec9d9-291f-4e9e-acbb-6fb0c4429240)
-
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -29,7 +25,7 @@ Welcome to the Rock Paper Scissors game! This is a simple web-based implementati
 
 ## Demo
 
-You can check out a live demo of the game [here](insert_demo_url_here).
+You can check out a live demo of the game  https://vedantpatel07756.github.io/ROCK-PAPER-SCISSORS/
 
 ## Installation
 
@@ -67,7 +63,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 **Note:** This project is for educational and entertainment purposes only. It's not intended for production use.
-Use this Link:https://vedantpatel07756.github.io/ROCK-PAPER-SCISSORS/
+
 
 Enjoy the game!
 ```
