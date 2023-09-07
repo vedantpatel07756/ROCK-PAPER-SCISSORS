@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(63, 63, 62);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+display: flex;
+padding-top: 200px;
+/* flex-wrap: wrap-reverse; */
+  
+}
+@media screen and (max-width:768px){
+    .container{
+        /* flex-direction: column; */
+        flex-wrap: wrap-reverse;
+    }
+}
+
+
+
+.bg{
+    background-image: url("./a.gif");
+}
+
+.left{
+    width: 100%;
+    margin: 5%;
+}
+.right{
+    width:100%;
+    margin: 5%;
+}
+
+
+.hand{
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(58, 42, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    /* margin: 2%; */
+
+}
+
+.hand h1{
+    /* position:absolute; */
+    margin-top:30% ;
+    color: white;
+   
+}
+.buttons{
+    display: grid;
+    padding-top: 5%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px ;
+    /* width: 50%; */
+    margin: auto;
+}
+
+.button{
+    /* background-color: yellow; */
+    width: 80px;
+    height: 80px;
+    /* border-radius: 50%; */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#rock{
+transform: rotate(90deg);
+width: 100px;
+height: 100px;
+background-image: url("./assest/rock.jpg");
+background-size: cover;
+
+}
+
+#paper {
+    width: 100px;
+height: 100px;
+background-image: url("./assest/paper.jpg");
+}
+
+#scissors{
+    transform: rotate(90deg);
+    width: 100px;
+    height: 100px;
+    background-image: url("./assest/scizor.png");
+    background-size: cover;
+    /* mix-blend-mode: lighten; */
+}
+
+#answer{
+    position:absolute;
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    top: 0;
+}
+
+/* #righthand{
+    margin-left: 5%;
+} */
